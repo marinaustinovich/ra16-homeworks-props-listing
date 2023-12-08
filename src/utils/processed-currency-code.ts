@@ -14,6 +14,7 @@ export const processedCurrencyCode = ({
   currencyCode,
   price,
 }: ProcessedCurrencyCodeData) => {
-  const symbol = currencyCode ? currencySymbols[currencyCode] : currencyCode;
-  return `${symbol}${price}`;
+  const symbol = currencyCode ? (currencySymbols[currencyCode] || currencyCode) : '';
+
+  return `${symbol} ${price}`;
 };
