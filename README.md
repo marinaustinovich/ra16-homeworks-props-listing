@@ -1,9 +1,11 @@
+Список предложений
+===
+
+
 [![Build status](https://ci.appveyor.com/api/projects/status/bg8incx92uw5q9d7/branch/main?svg=true)](https://ci.appveyor.com/project/marinaustinovich/ra16-homeworks-props-listing/branch/main)
 
 deployment: https://marinaustinovich.github.io/ra16-homeworks-props-listing/
 
-Список предложений
-===
 
 Необходимо вывести список предложений каталога Etsy.com, используя библиотеку React. После загрузки данных и отрисовки список должен выглядеть так:
 ![Список предложений](./public/preview.png)
@@ -59,5 +61,3 @@ deployment: https://marinaustinovich.github.io/ra16-homeworks-props-listing/
 ## Реализация
 
 Необходимо отобразить данные списка предложений, используя компонент `Listing`.
-
-Используйте приложенный CSS-файл для стилизации.
